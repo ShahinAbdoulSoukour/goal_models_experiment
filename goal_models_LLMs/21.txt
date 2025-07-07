@@ -1,0 +1,127 @@
+1. Anticipate the impact of flood on people
+AND
+   1.1 Predict flood occurrence and characteristics
+        AND
+        1.1.1 Monitor environmental conditions
+            AND
+            1.1.1.1 Collect meteorological data
+                AND
+                1.1.1.1.1 Measure precipitation levels
+                1.1.1.1.2 Monitor wind speed and direction
+                1.1.1.1.3 Track atmospheric pressure
+                1.1.1.1.4 Record temperature and humidity
+            1.1.1.2 Monitor hydrological conditions
+                AND
+                1.1.1.2.1 Measure water levels
+                1.1.1.2.2 Monitor streamflow rates
+                1.1.1.2.3 Assess soil moisture content
+                1.1.1.2.4 Track water quality parameters
+            1.1.1.3 Observe wide-area conditions
+                OR
+                1.1.1.3.1 Analyze satellite imagery
+                1.1.1.3.2 Deploy camera systems for visual monitoring
+        1.1.2 Analyze flood risk factors
+            AND
+            1.1.2.1 Identify flood causes
+                OR
+                1.1.2.1.1 Detect heavy rainfall events
+                1.1.2.1.2 Monitor river overflow conditions
+                1.1.2.1.3 Track snowmelt patterns
+                1.1.2.1.4 Assess storm surge risks
+                1.1.2.1.5 Monitor tsunami threats
+                1.1.2.1.6 Evaluate dam failure risks
+            1.1.2.2 Process historical and real-time data
+                AND
+                1.1.2.2.1 Apply time-series analysis
+                1.1.2.2.2 Utilize machine learning models
+                1.1.2.2.3 Employ deep learning algorithms
+        1.1.3 Generate flood predictions
+            AND
+            1.1.3.1 Run flood prediction models
+            1.1.3.2 Calculate severity scores
+            1.1.3.3 Produce weather forecasts
+
+    1.2 Assess potential impacts on people
+        AND
+        1.2.1 Evaluate health and safety risks
+            AND
+            1.2.1.1 Assess direct physical threats
+                OR
+                1.2.1.1.1 Estimate risk of loss of life
+                1.2.1.1.2 Identify injury potential
+            1.2.1.2 Analyze environmental health hazards
+                AND
+                1.2.1.2.1 Monitor water quality degradation
+                1.2.1.2.2 Assess contamination risks
+        1.2.2 Determine infrastructure impacts affecting people
+            AND
+            1.2.2.1 Evaluate property damage
+                OR
+                1.2.2.1.1 Assess building damage
+                1.2.2.1.2 Estimate homes damage
+                1.2.2.1.3 Evaluate vehicle damage
+            1.2.2.2 Analyze critical infrastructure damage
+                OR
+                1.2.2.2.1 Assess bridge damage
+                1.2.2.2.2 Evaluate railroad damage
+                1.2.2.2.3 Determine road accessibility
+            1.2.2.3 Evaluate service disruptions
+                AND
+                1.2.2.3.1 Assess traffic disruption
+                1.2.2.3.2 Evaluate business disruption
+        1.2.3 Model flood scenarios
+            AND
+            1.2.3.1 Develop infrastructure damage scenarios
+            1.2.3.2 Create evacuation requirement scenarios
+
+    1.3 Enable timely warning and response
+        AND
+        1.3.1 Operate warning systems
+            OR
+            1.3.1.1 Deploy river flood warning system
+            1.3.1.2 Maintain general flood warning system
+            1.3.1.3 Run hydrological monitoring system
+        1.3.2 Generate and prioritize alerts
+            AND
+            1.3.2.1 Create alert messages
+            1.3.2.2 Prioritize alerts by severity score
+            1.3.2.3 Target appropriate audiences
+                OR
+                1.3.2.3.1 Notify general public
+                1.3.2.3.2 Alert government authorities
+                1.3.2.3.3 Inform emergency response agencies
+        1.3.3 Disseminate warnings effectively
+            AND
+            1.3.3.1 Utilize multiple communication channels
+                OR
+                1.3.3.1.1 Send mobile phone messages
+                1.3.3.1.2 Broadcast television announcements
+                1.3.3.1.3 Push notifications via smartphone apps
+                1.3.3.1.4 Transmit emergency radio broadcasts
+                1.3.3.1.5 Activate warning sirens
+                1.3.3.1.6 Post social media notifications
+            1.3.3.2 Ensure communication reliability
+                OR
+                1.3.3.2.1 Use cellular networks
+                1.3.3.2.2 Employ LPWAN for sensor connectivity
+                1.3.3.2.3 Utilize satellite communication for remote areas
+                1.3.3.2.4 Deploy short-range wireless for local clusters
+
+    1.4 Support impact mitigation measures
+        AND
+        1.4.1 Facilitate evacuation planning
+            AND
+            1.4.1.1 Recommend evacuation of residents
+            1.4.1.2 Identify safe evacuation routes
+        1.4.2 Enable flood control measures
+            OR
+            1.4.2.1 Operate flood control infrastructure
+                OR
+                1.4.2.1.1 Manage dam operations
+                1.4.2.1.2 Control retention ponds
+                1.4.2.1.3 Utilize detention ponds
+                1.4.2.1.4 Activate stormwater basins
+            1.4.2.2 Deploy flood mitigation structures
+                OR
+                1.4.2.2.1 Utilize floodwalls
+                1.4.2.2.2 Divert water through floodways

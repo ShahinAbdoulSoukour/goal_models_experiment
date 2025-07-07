@@ -1,0 +1,137 @@
+1. Anticipate the impact of flood on people
+    AND
+    1.1. Predict flood events accurately
+        AND
+        1.1.1. Collect relevant data for flood prediction
+            AND
+            1.1.1.1. Gather real-time data
+                AND
+                1.1.1.1.1. Monitor weather conditions using weather stations
+                    AND
+                    1.1.1.1.1.1. Measure atmospheric pressure
+                    1.1.1.1.1.2. Measure wind direction
+                    1.1.1.1.1.3. Measure wind speed
+                    1.1.1.1.1.4. Measure temperature
+                    1.1.1.1.1.5. Measure humidity
+                    1.1.1.1.1.6. Measure evaporation
+                    AND
+                    1.1.1.1.1.7. Transmit data using appropriate communication protocols
+                        OR
+                        1.1.1.1.1.7.1. Use Low-Power Wide-Area Networks (LPWAN)
+                        1.1.1.1.1.7.2. Use Cellular networks
+                        1.1.1.1.1.7.3. Use Short range wireless
+                1.1.1.1.2. Monitor water levels using water level sensors
+                    AND
+                    1.1.1.1.2.1. Measure water level
+                    AND
+                    1.1.1.1.2.2. Transmit data using appropriate communication protocols
+                        OR
+                        1.1.1.1.2.2.1. Use Low-Power Wide-Area Networks (LPWAN)
+                        1.1.1.1.2.2.2. Use Short range wireless
+                        1.1.1.1.2.2.3. Use Satellite communication
+                1.1.1.1.3. Monitor streamflow using streamflow sensors
+                    AND
+                    1.1.1.1.3.1. Measure streamflow
+                    AND
+                    1.1.1.1.3.2. Transmit data using appropriate communication protocols
+                        OR
+                        1.1.1.1.3.2.1. Use Low-Power Wide-Area Networks (LPWAN)
+                        1.1.1.1.3.2.2. Use Cellular networks
+                        1.1.1.1.3.2.3. Use Short range wireless
+                        1.1.1.1.3.2.4. Use Satellite communication
+                1.1.1.1.4. Monitor rainfall using rain gauges
+                    AND
+                    1.1.1.1.4.1. Measure precipitation
+                    1.1.1.1.4.2. Measure heavy rainfall
+                    AND
+                    1.1.1.1.4.3. Transmit data using appropriate communication protocols
+                        OR
+                        1.1.1.1.4.3.1. Use Low-Power Wide-Area Networks (LPWAN)
+                        1.1.1.1.4.3.2. Use Cellular networks
+                1.1.1.1.5. Monitor soil moisture using soil moisture sensors
+                    AND
+                    1.1.1.1.5.1. Measure soil moisture
+                    AND
+                    1.1.1.1.5.2. Transmit data using appropriate communication protocols
+                        OR
+                        1.1.1.1.5.2.1. Use Low-Power Wide-Area Networks (LPWAN)
+                1.1.1.1.6. Monitor water quality using water quality sensors
+                    AND
+                    1.1.1.1.6.1. Measure Turbidity
+                    1.1.1.1.6.2. Measure Salinity
+                    1.1.1.1.6.3. Measure pH level
+                    1.1.1.1.6.4. Measure Dissolved oxygen
+                    AND
+                    1.1.1.1.6.5. Transmit data using appropriate communication protocols
+                        OR
+                        1.1.1.1.6.5.1. Use Low-Power Wide-Area Networks (LPWAN)
+                        1.1.1.1.6.5.2. Use Short range wireless
+                1.1.1.1.7. Capture visual data using cameras
+                    AND
+                    1.1.1.1.7.1. Utilize remote cameras
+                    1.1.1.1.7.2. Utilize consumer cameras
+            1.1.1.2. Gather historical data
+        1.1.2. Process data using flood prediction models
+            AND
+            1.1.2.1. Analyze data using time-series analysis
+                AND
+                1.1.2.1.1. Detect patterns in data
+            1.1.2.2. Analyze satellite imagery
+                AND
+                1.1.2.2.1. Utilize satellite imagery for wide-area flood monitoring
+            1.1.2.3. Employ Machine Learning models
+            1.1.2.4. Employ Deep Learning models
+            1.1.2.5. Process Forecasting
+        1.1.3. Predict river overflow
+        1.1.4. Detect flood events
+            AND
+            1.1.4.1. Detect flood using sensors
+            1.1.4.2. Detect flood using cameras
+        1.1.5. Calculate severity score
+    1.2. Assess potential impacts of flood
+        AND
+        1.2.1. Evaluate potential infrastructure damage
+            AND
+            1.2.1.1. Assess buildings damage
+            1.2.1.2. Assess homes damage
+            1.2.1.3. Assess railroads damage
+            1.2.1.4. Assess bridge damage
+            1.2.1.5. Assess vehicles damage
+            1.2.1.6. Assess property damage
+            1.2.1.7. Assess traffic disruption
+            1.2.1.8. Assess business disruption
+            1.2.1.9. Assess environmental damage
+                AND
+                1.2.1.9.1. Assess soil erosion
+        1.2.2. Evaluate potential health and safety risks
+            AND
+            1.2.2.1. Assess risks related to water quality
+            1.2.2.2. Assess risks related to environmental damage
+        1.2.3. Evaluate potential loss of life
+    1.3. Disseminate timely and effective warnings
+        AND
+        1.3.1. Generate alerts
+            AND
+            1.3.1.1. Prioritize alerts by severity score
+        1.3.2. Notify the general public
+            AND
+            1.3.2.1. Notify government authorities
+            1.3.2.2. Notify emergencies response agencies
+        1.3.3. Issue alerts through communication channels
+            OR
+            1.3.3.1. Use Mobile phone messages
+            1.3.3.2. Use Television announcements
+            1.3.3.3. Use Dedicated smartphone app
+            1.3.3.4. Use Emergency radio broadcasts
+            1.3.3.5. Use Sirens
+            1.3.3.6. Use Social media notification
+    1.4. Facilitate effective response and mitigation
+        AND
+        1.4.1. Recommend evacuation of residents
+        1.4.2. Implement flood control measures
+            AND
+            1.4.2.1. Utilize dams
+            1.4.2.2. Utilize retention ponds
+            1.4.2.3. Utilize floodwalls
+            1.4.2.4. Utilize floodways
+            1.4.2.5. Utilize stormwater bassin

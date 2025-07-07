@@ -1,0 +1,100 @@
+1. Anticipate the impact of flood on people
+    AND
+    1.1 Predict Flood Events
+        AND
+        1.1.1 Monitor Environmental Conditions
+            AND
+            1.1.1.1 Collect Weather Data
+                AND
+                1.1.1.1.1 Measure Precipitation (Rain Gauge)
+                1.1.1.1.2 Measure Atmospheric Pressure (Weather Station)
+                1.1.1.1.3 Measure Wind Speed & Direction (Weather Station)
+                1.1.1.1.4 Measure Humidity (Weather Station)
+                1.1.1.1.5 Measure Temperature (Weather Station)
+                1.1.1.1.6 Measure Evaporation (Weather Station)
+            1.1.1.2 Monitor Hydrological Conditions
+                AND
+                1.1.1.2.1 Measure River Levels (Water Level Sensor)
+                1.1.1.2.2 Measure Streamflow (Streamflow Sensor)
+                1.1.1.2.3 Measure Soil Moisture (Soil Moisture Sensor)
+            1.1.1.3 Monitor Water Quality (Water Quality Sensor)
+                AND
+                1.1.1.3.1 Measure Turbidity
+                1.1.1.3.2 Measure Salinity
+                1.1.1.3.3 Measure pH Level
+                1.1.1.3.4 Measure Dissolved Oxygen
+        1.1.2 Process Data for Flood Prediction
+            AND
+            1.1.2.1 Analyze Historical Data
+            1.1.2.2 Analyze Real-time Data
+            1.1.2.3 Employ Time-Series Analysis
+            1.1.2.4 Employ Machine Learning Models (Flood Prediction Model)
+            1.1.2.5 Employ Deep Learning Models (Flood Prediction Model)
+            1.1.2.6 Process Satellite Imagery (Flood Prediction Model)
+            1.1.2.7 Process Weather Data (Weather Prediction Model)
+        1.1.3 Predict Flood Occurrence & Severity (Flood Prediction Model)
+            AND
+            1.1.3.1 Predict River Overflow
+            1.1.3.2 Predict Weather Events (Weather Prediction Model)
+            1.1.3.3 Calculate Severity Score (Flood Prediction Model)
+    1.2 Assess Potential Impacts of Floods
+        AND
+        1.2.1 Identify Vulnerable Populations
+        1.2.2 Evaluate Potential Property Damage
+            AND
+            1.2.2.1 Assess Buildings Damage
+            1.2.2.2 Assess Homes Damage
+            1.2.2.3 Assess Railroads Damage
+            1.2.2.4 Assess Bridge Damage
+            1.2.2.5 Assess Vehicles Damage
+        1.2.3 Evaluate Potential Infrastructure Damage
+            AND
+            1.2.3.1 Assess Dam Failure Scenarios
+            1.2.3.2 Assess Traffic Disruption
+            1.2.3.3 Assess Business Disruption
+        1.2.4 Evaluate Potential Environmental Damage
+            AND
+            1.2.4.1 Assess Soil Erosion
+            1.2.4.2 Assess Water Quality Impacts
+        1.2.5 Evaluate Potential Health and Safety Risks
+            AND
+            1.2.5.1 Assess Risks from Water Quality
+            1.2.5.2 Assess Risks from Flood Exposure
+    1.3 Disseminate Warnings and Recommendations
+        AND
+        1.3.1 Generate Alerts (River Flood Warning System, Hydrological Monitoring System, Flood Warning System)
+            AND
+            1.3.1.1 Prioritise Alerts by Severity Score
+        1.3.2 Notify the Public (Alerts)
+            OR
+            1.3.2.1 Issue Alerts via Mobile Phone Messages
+            1.3.2.2 Issue Alerts via Television Announcements
+            1.3.2.3 Issue Alerts via Dedicated Smartphone App
+            1.3.2.4 Issue Alerts via Emergency Radio Broadcasts
+            1.3.2.5 Issue Alerts via Sirens
+            1.3.2.6 Issue Alerts via Social Media Notification
+        1.3.3 Recommend Evacuation of Residents (Flood Warning System)
+    1.4 Mitigate Flood Impacts
+        AND
+        1.4.1 Implement Flood Control Measures
+            OR
+            1.4.1.1 Utilize Dams for Flood Control
+            1.4.1.2 Utilize Retention Ponds for Flood Control
+            1.4.1.3 Utilize Stormwater Bassins for Flood Control
+            1.4.1.4 Utilize Floodways to Divert River Overflow
+            1.4.1.5 Utilize Floodwalls to Mitigate Flood
+        1.4.2 Maintain Infrastructure
+            AND
+            1.4.2.1 Ensure Adequate Dam Maintenance
+            1.4.2.2 Prevent Material Defects in Dams
+        1.4.3 Monitor and Detect Floods
+            AND
+            1.4.3.1 Detect Floods using Sensors
+            1.4.3.2 Detect Floods using Cameras
+            1.4.3.3 Detect River Overflow (River Flood Warning System)
+    1.5 Ensure Data Communication
+        AND
+        1.5.1 Utilize Cellular Networks for Data Transmission
+        1.5.2 Utilize Low-Power Wide-Area Networks (LPWAN) for Sensor Connectivity
+        1.5.3 Utilize Short Range Wireless for Local Sensor Communication
+        1.5.4 Utilize Satellite Communication for Remote Data Transmission
