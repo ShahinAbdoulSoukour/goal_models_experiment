@@ -1,0 +1,7 @@
+1. Anticipate the impact of flood on people
+   **AND**
+   1.1 Predict flood events
+      **OR**
+      1.1.1 Develop and utilize flood prediction models
+         **AND**
+         1.1.1.1 Employ time-series analysis and machine/deep learning models to process
