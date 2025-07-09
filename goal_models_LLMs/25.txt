@@ -1,0 +1,42 @@
+### Goal Model: Anticipate the Impact of Flood on People
+
+1. **Anticipate the impact of flood on people**
+    AND
+    1.1 **Predict flood occurrences**
+        AND
+        1.1.1 **Monitor weather conditions**
+            OR
+            1.1.1.1 **Use weather stations**
+            1.1.1.2 **Analyze satellite imagery**
+        1.1.2 **Analyze hydrological data**
+            AND
+            1.1.2.1 **Collect data from sensors**
+            1.1.2.2 **Apply flood prediction models**
+    1.2 **Assess potential damage to infrastructure**
+        AND
+        1.2.1 **Evaluate flood severity**
+            OR
+            1.2.1.1 **Use flood prediction models**
+            1.2.1.2 **Analyze historical flood data**
+        1.2.2 **Identify vulnerable infrastructure**
+            AND
+            1.2.2.1 **Map flood-prone areas**
+            1.2.2.2 **Assess infrastructure resilience**
+    1.3 **Estimate the impact on people**
+        AND
+        1.3.1 **Predict health and safety risks**
+            OR
+            1.3.1.1 **Model waterborne disease spread**
+            1.3.1.2 **Assess injury risks from debris**
+        1.3.2 **Plan for evacuation and emergency response**
+            AND
+            1.3.2.1 **Identify evacuation routes and shelters**
+            1.3.2.2 **Coordinate with emergency services**
+    1.4 **Communicate flood warnings and instructions**
+        OR
+        1.4.1 **Use mobile phone messages**
+        1.4.2 **Utilize television announcements**
+        1.4.3 **Employ dedicated smartphone apps**
+        1.4.4 **Broadcast via emergency radio**
+        1.4.5 **Issue sirens**
+        1.4.6 **Notify through social media**
