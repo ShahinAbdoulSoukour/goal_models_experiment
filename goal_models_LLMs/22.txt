@@ -1,0 +1,60 @@
+### **1. Anticipate the impact of flood on people**
+**AND**
+1.1 **Monitor flood risk factors**
+    *AND*
+    1.1.1 Monitor weather conditions
+        *AND*
+        1.1.1.1 Measure precipitation (via rain gauges)
+        1.1.1.2 Measure wind speed/direction (via weather stations)
+        1.1.1.3 Track temperature/humidity (via weather stations)
+        1.1.1.4 Predict weather events (via weather prediction models)
+    1.1.2 Monitor hydrological conditions
+        *AND*
+        1.1.2.1 Measure river levels (via streamflow sensors)
+        1.1.2.2 Measure soil moisture (via soil moisture sensors)
+        1.1.2.3 Detect snowmelt (via satellite imagery)
+    1.1.3 Monitor infrastructure conditions
+        *AND*
+        1.1.3.1 Assess dam integrity (via sensors/maintenance logs)
+        1.1.3.2 Track retention pond capacity (via sensors)
+
+1.2 **Predict flood occurrence and severity**
+    *AND*
+    1.2.1 Model flood scenarios
+        *OR*
+        1.2.1.1 Predict river overflow (via flood prediction models)
+        1.2.1.2 Predict storm surges (via weather models)
+    1.2.2 Calculate flood severity scores
+        *AND*
+        1.2.2.1 Analyze historical flood data (via time-series analysis)
+        1.2.2.2 Process real-time sensor data (via deep learning models)
+
+1.3 **Assess potential impacts**
+    *AND*
+    1.3.1 Evaluate risks to human safety
+        *OR*
+        1.3.1.1 Predict loss of life (via flood scenarios)
+        1.3.1.2 Predict health risks (via water quality data)
+    1.3.2 Evaluate infrastructure damage
+        *OR*
+        1.3.2.1 Assess property damage (buildings, homes, vehicles)
+        1.3.2.2 Assess environmental damage (soil erosion, water quality)
+    1.3.3 Evaluate secondary effects
+        *AND*
+        1.3.3.1 Predict evacuation needs (via flood severity)
+        1.3.3.2 Predict business/traffic disruptions
+
+1.4 **Mitigate flood impacts**
+    *AND*
+    1.4.1 Issue timely warnings
+        *AND*
+        1.4.1.1 Generate alerts (prioritized by severity scores)
+        1.4.1.2 Disseminate alerts (via communication channels)
+    1.4.2 Deploy preventive measures
+        *OR*
+        1.4.2.1 Activate flood control systems (dams, floodways)
+        1.4.2.2 Improve water drainage (retention ponds)
+    1.4.3 Plan evacuations
+        *AND*
+        1.4.3.1 Identify at-risk areas (via flood prediction models)
+        1.4.3.2 Coordinate with emergency agencies
