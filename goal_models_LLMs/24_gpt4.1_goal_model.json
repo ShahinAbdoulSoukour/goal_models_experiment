@@ -1,0 +1,276 @@
+{
+  "goal_model": {
+    "goal_id": "1",
+    "label": "Anticipate the impact of flood on people",
+    "refinement": "AND",
+    "subgoals": [
+      {
+        "goal_id": "1.1",
+        "label": "Predict occurrence and severity of floods",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.1.1",
+            "label": "Collect and analyze environmental and hydrological data",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.1.1",
+                "label": "Deploy and operate sensor networks for flood monitoring",
+                "refinement": "AND",
+                "subgoals": [
+                  {
+                    "goal_id": "1.1.1.1.1",
+                    "label": "Measure rainfall, river levels, streamflow, and soil moisture",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.1.1.2",
+                    "label": "Monitor water quality parameters",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.1.1.3",
+                    "label": "Capture real-time imagery using cameras and satellites",
+                    "refinement": null,
+                    "subgoals": []
+                  }
+                ]
+              },
+              {
+                "goal_id": "1.1.1.2",
+                "label": "Integrate and process collected data",
+                "refinement": "AND",
+                "subgoals": [
+                  {
+                    "goal_id": "1.1.1.2.1",
+                    "label": "Transmit data using appropriate communication protocols",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.1.2.2",
+                    "label": "Aggregate real-time and historical data for analysis",
+                    "refinement": null,
+                    "subgoals": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.2",
+            "label": "Apply predictive models to forecast floods",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.2.1",
+                "label": "Utilize flood prediction and weather prediction models",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.2.2",
+                "label": "Employ machine learning and deep learning techniques for time-series analysis",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.2.3",
+                "label": "Analyze satellite imagery and sensor data for pattern detection",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.3",
+            "label": "Detect and monitor flood events in real time",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.3.1",
+                "label": "Identify flood triggers such as heavy rainfall, river overflow, and snowmelt",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.3.2",
+                "label": "Monitor severity and progression of flood scenarios",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.2",
+        "label": "Assess potential impacts of floods on people",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.2.1",
+            "label": "Evaluate risks to health and safety",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.2.1.1",
+                "label": "Analyze water quality and related health hazards",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.1.2",
+                "label": "Estimate likelihood of loss of life and injuries",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.2.2",
+            "label": "Assess infrastructure and property damage",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.2.2.1",
+                "label": "Evaluate scenarios for damage to buildings, homes, railroads, bridges, and vehicles",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.2.2",
+                "label": "Assess environmental damage and soil erosion",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.2.3",
+                "label": "Estimate business and traffic disruptions",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.3",
+        "label": "Warn and inform affected populations and authorities",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.3.1",
+            "label": "Generate and prioritize alerts based on severity",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.3.1.1",
+                "label": "Calculate severity scores for flood events",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.1.2",
+                "label": "Issue alerts to the general public and authorities",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.3.2",
+            "label": "Disseminate alerts through multiple communication channels",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.3.2.1",
+                "label": "Send mobile phone messages",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.2.2",
+                "label": "Broadcast television announcements",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.2.3",
+                "label": "Notify via dedicated smartphone apps",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.2.4",
+                "label": "Transmit emergency radio broadcasts",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.2.5",
+                "label": "Activate sirens",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.2.6",
+                "label": "Send social media notifications",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.4",
+        "label": "Support effective response and mitigation actions",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.4.1",
+            "label": "Recommend evacuation and safety measures",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.4.1.1",
+                "label": "Identify areas requiring evacuation",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.1.2",
+                "label": "Advise on actions to reduce health and safety risks",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.4.2",
+            "label": "Enable deployment of flood control and mitigation infrastructure",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.4.2.1",
+                "label": "Utilize dams, floodwalls, floodways, and stormwater basins",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.2.2",
+                "label": "Monitor effectiveness of mitigation measures",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

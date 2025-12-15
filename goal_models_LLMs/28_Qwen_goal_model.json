@@ -1,0 +1,218 @@
+{
+  "goal_model": {
+    "goal_id": "1",
+    "label": "Anticipate the impact of flood on people",
+    "refinement": "AND",
+    "subgoals": [
+      {
+        "goal_id": "1.1",
+        "label": "Assess flood-related health and safety risks",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.1.1",
+            "label": "Identify and monitor health and safety risks caused by flood",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.1.1.1",
+                "label": "Monitor water quality impacts on health",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.1.2",
+                "label": "Monitor environmental damage leading to health risks",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.1.3",
+                "label": "Monitor direct flood impacts on health and safety",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.2",
+            "label": "Implement measures to reduce health and safety risks",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.2.1",
+                "label": "Issue timely evacuation alerts",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.2.2",
+                "label": "Deploy emergency response systems",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.2",
+        "label": "Predict and detect flood events",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.2.1",
+            "label": "Utilize flood prediction models",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.2.1.1",
+                "label": "Process satellite imagery for flood detection",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.1.2",
+                "label": "Apply time-series analysis to historical and real-time data",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.1.3",
+                "label": "Integrate sensor data from weather stations and water level sensors",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.2.2",
+            "label": "Deploy flood detection systems",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.2.2.1",
+                "label": "Use remote cameras to detect flood",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.2.2",
+                "label": "Use sensors to detect flood",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.3",
+        "label": "Mitigate flood impacts on infrastructure and property",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.3.1",
+            "label": "Monitor and assess infrastructure damage scenarios",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.3.1.1",
+                "label": "Assess environmental damage",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.1.2",
+                "label": "Assess property damage",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.3.2",
+            "label": "Implement flood control measures",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.3.2.1",
+                "label": "Use dams for flood control",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.2.2",
+                "label": "Use retention ponds and stormwater basins",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.2.3",
+                "label": "Use floodways to divert river overflow",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.4",
+        "label": "Communicate flood alerts and warnings to the public",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.4.1",
+            "label": "Generate and prioritize alerts based on severity",
+            "refinement": null,
+            "subgoals": []
+          },
+          {
+            "goal_id": "1.4.2",
+            "label": "Distribute alerts through multiple communication channels",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.4.2.1",
+                "label": "Use mobile phone messages",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.2.2",
+                "label": "Use television announcements",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.2.3",
+                "label": "Use dedicated smartphone apps",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.2.4",
+                "label": "Use emergency radio broadcasts",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.2.5",
+                "label": "Use sirens",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.2.6",
+                "label": "Use social media notifications",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

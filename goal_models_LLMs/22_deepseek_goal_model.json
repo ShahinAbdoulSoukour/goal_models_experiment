@@ -1,0 +1,207 @@
+{
+  "goal_model": {
+    "goal_id": "1",
+    "label": "Anticipate the impact of flood on people",
+    "refinement": "AND",
+    "subgoals": [
+      {
+        "goal_id": "1.1",
+        "label": "Predict flood occurrences",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.1.1",
+            "label": "Monitor environmental conditions",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.1.1.1",
+                "label": "Collect sensor data from hydrological systems",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.1.2",
+                "label": "Analyze satellite imagery",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.2",
+            "label": "Employ flood prediction models",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.2.1",
+                "label": "Process real-time and historical data",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.2.2",
+                "label": "Apply time-series analysis",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.2.3",
+                "label": "Utilize machine learning models",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.3",
+            "label": "Detect flood indicators",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.1.3.1",
+                "label": "Identify river overflow conditions",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.3.2",
+                "label": "Recognize weather events leading to floods",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.2",
+        "label": "Assess potential flood impacts",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.2.1",
+            "label": "Evaluate infrastructure damage scenarios",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.2.1.1",
+                "label": "Analyze property damage risks",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.1.2",
+                "label": "Assess critical infrastructure vulnerabilities",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.2.2",
+            "label": "Assess environmental damage scenarios",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.2.2.1",
+                "label": "Evaluate soil erosion risks",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.2.2",
+                "label": "Analyze water quality degradation",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.2.3",
+            "label": "Determine health and safety implications",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.2.3.1",
+                "label": "Assess direct physical risks to people",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.3.2",
+                "label": "Evaluate indirect health risks from environmental damage",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.3",
+        "label": "Mitigate impacts on people",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.3.1",
+            "label": "Generate prioritized alerts",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.3.1.1",
+                "label": "Calculate flood severity scores",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.1.2",
+                "label": "Distribute warnings through communication channels",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.3.2",
+            "label": "Facilitate evacuation planning",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.3.2.1",
+                "label": "Identify at-risk populations",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.2.2",
+                "label": "Coordinate with emergency response agencies",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.3.3",
+            "label": "Implement flood control measures",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.3.3.1",
+                "label": "Activate flood mitigation infrastructure",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.3.2",
+                "label": "Manage water retention systems",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

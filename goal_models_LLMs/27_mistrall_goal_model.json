@@ -1,0 +1,355 @@
+{
+  "goal_model": {
+    "goal_id": "1",
+    "label": "Anticipate the impact of flood on people",
+    "refinement": "AND",
+    "subgoals": [
+      {
+        "goal_id": "1.1",
+        "label": "Monitor environmental conditions",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.1.1",
+            "label": "Measure weather conditions",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.1.1",
+                "label": "Measure wind direction",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.1.2",
+                "label": "Measure atmospheric pressure",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.1.3",
+                "label": "Measure wind speed",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.1.4",
+                "label": "Measure humidity",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.1.5",
+                "label": "Measure temperature",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.1.6",
+                "label": "Measure precipitation",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.2",
+            "label": "Monitor water quality",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.2.1",
+                "label": "Measure turbidity",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.2.2",
+                "label": "Measure salinity",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.2.3",
+                "label": "Measure pH level",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.2.4",
+                "label": "Measure dissolved oxygen",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.3",
+            "label": "Monitor hydrological conditions",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.3.1",
+                "label": "Measure streamflow",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.3.2",
+                "label": "Measure water level",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.3.3",
+                "label": "Measure soil moisture",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.2",
+        "label": "Predict flood events",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.2.1",
+            "label": "Analyze satellite imagery",
+            "refinement": null,
+            "subgoals": []
+          },
+          {
+            "goal_id": "1.2.2",
+            "label": "Analyze time-series data",
+            "refinement": null,
+            "subgoals": []
+          },
+          {
+            "goal_id": "1.2.3",
+            "label": "Use deep learning models",
+            "refinement": null,
+            "subgoals": []
+          },
+          {
+            "goal_id": "1.2.4",
+            "label": "Use machine learning models",
+            "refinement": null,
+            "subgoals": []
+          }
+        ]
+      },
+      {
+        "goal_id": "1.3",
+        "label": "Assess flood impact",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.3.1",
+            "label": "Evaluate infrastructure damage",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.3.1.1",
+                "label": "Evaluate property damage",
+                "refinement": "AND",
+                "subgoals": [
+                  {
+                    "goal_id": "1.3.1.1.1",
+                    "label": "Evaluate buildings damage",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.3.1.1.2",
+                    "label": "Evaluate homes damage",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.3.1.1.3",
+                    "label": "Evaluate railroads damage",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.3.1.1.4",
+                    "label": "Evaluate bridge damage",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.3.1.1.5",
+                    "label": "Evaluate vehicles damage",
+                    "refinement": null,
+                    "subgoals": []
+                  }
+                ]
+              },
+              {
+                "goal_id": "1.3.1.2",
+                "label": "Evaluate environmental damage",
+                "refinement": "AND",
+                "subgoals": [
+                  {
+                    "goal_id": "1.3.1.2.1",
+                    "label": "Evaluate soil erosion",
+                    "refinement": null,
+                    "subgoals": []
+                  }
+                ]
+              },
+              {
+                "goal_id": "1.3.1.3",
+                "label": "Evaluate traffic disruption",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.1.4",
+                "label": "Evaluate business disruption",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.3.2",
+            "label": "Evaluate health and safety risks",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.3.2.1",
+                "label": "Evaluate loss of life",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.2.2",
+                "label": "Evaluate evacuation of residents",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.4",
+        "label": "Mitigate flood impact",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.4.1",
+            "label": "Implement flood control measures",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.4.1.1",
+                "label": "Use dams",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.1.2",
+                "label": "Use floodwalls",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.1.3",
+                "label": "Use floodways",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.1.4",
+                "label": "Use stormwater basins",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.4.2",
+            "label": "Improve water quality",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.4.2.1",
+                "label": "Use retention ponds",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.5",
+        "label": "Communicate flood warnings",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.5.1",
+            "label": "Generate alerts",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.5.1.1",
+                "label": "Prioritize alerts by severity score",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.5.2",
+            "label": "Notify general public",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.5.2.1",
+                "label": "Use mobile phone messages",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.5.2.2",
+                "label": "Use television announcements",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.5.2.3",
+                "label": "Use dedicated smartphone app",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.5.2.4",
+                "label": "Use emergency radio broadcasts",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.5.2.5",
+                "label": "Use sirens",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.5.2.6",
+                "label": "Use social media notifications",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

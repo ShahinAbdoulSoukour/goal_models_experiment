@@ -1,0 +1,116 @@
+{
+  "goal_model": {
+    "goal_id": "1",
+    "label": "Anticipate the impact of flood on people",
+    "refinement": "AND",
+    "subgoals": [
+      {
+        "goal_id": "1.1",
+        "label": "Assess flood causes and risks",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.1.1",
+            "label": "Identify potential flood sources",
+            "refinement": null,
+            "subgoals": []
+          },
+          {
+            "goal_id": "1.1.2",
+            "label": "Evaluate flood likelihood and severity",
+            "refinement": null,
+            "subgoals": []
+          }
+        ]
+      },
+      {
+        "goal_id": "1.2",
+        "label": "Monitor and predict flood events",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.2.1",
+            "label": "Collect and analyze real-time data",
+            "refinement": null,
+            "subgoals": []
+          },
+          {
+            "goal_id": "1.2.2",
+            "label": "Employ flood prediction models",
+            "refinement": null,
+            "subgoals": []
+          }
+        ]
+      },
+      {
+        "goal_id": "1.3",
+        "label": "Evaluate infrastructure damage and disruption",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.3.1",
+            "label": "Assess property damage",
+            "refinement": null,
+            "subgoals": []
+          },
+          {
+            "goal_id": "1.3.2",
+            "label": "Evaluate environmental damage",
+            "refinement": null,
+            "subgoals": []
+          },
+          {
+            "goal_id": "1.3.3",
+            "label": "Consider traffic and business disruption",
+            "refinement": null,
+            "subgoals": []
+          }
+        ]
+      },
+      {
+        "goal_id": "1.4",
+        "label": "Mitigate and respond to flood events",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.4.1",
+            "label": "Implement flood control measures",
+            "refinement": null,
+            "subgoals": []
+          },
+          {
+            "goal_id": "1.4.2",
+            "label": "Issue alerts and warnings",
+            "refinement": null,
+            "subgoals": []
+          },
+          {
+            "goal_id": "1.4.3",
+            "label": "Coordinate evacuation and response efforts",
+            "refinement": null,
+            "subgoals": []
+          }
+        ]
+      },
+      {
+        "goal_id": "1.5",
+        "label": "Protect people and minimize harm",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.5.1",
+            "label": "Reduce health and safety risks",
+            "refinement": null,
+            "subgoals": []
+          },
+          {
+            "goal_id": "1.5.2",
+            "label": "Prevent loss of life",
+            "refinement": null,
+            "subgoals": []
+          }
+        ]
+      }
+    ]
+  }
+}

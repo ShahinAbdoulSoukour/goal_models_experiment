@@ -1,0 +1,313 @@
+{
+  "goal_model": {
+    "goal_id": "1",
+    "label": "Anticipate the impact of flood on people",
+    "refinement": "AND",
+    "subgoals": [
+      {
+        "goal_id": "1.1",
+        "label": "Monitor environmental and hydrological conditions",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.1.1",
+            "label": "Measure meteorological parameters",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.1.1",
+                "label": "Measure precipitation and heavy rainfall",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.1.2",
+                "label": "Measure wind speed and direction",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.1.3",
+                "label": "Measure atmospheric pressure, temperature, and humidity",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.2",
+            "label": "Measure hydrological parameters",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.2.1",
+                "label": "Monitor river levels and streamflow",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.2.2",
+                "label": "Monitor soil moisture and saturation",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.2.3",
+                "label": "Assess water quality (turbidity, pH, salinity)",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.3",
+            "label": "Acquire visual situational awareness",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.1.3.1",
+                "label": "Capture satellite imagery for wide-area monitoring",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.3.2",
+                "label": "Utilize remote and consumer cameras",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.4",
+            "label": "Ensure sensor data transmission",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.1.4.1",
+                "label": "Transmit via Low-Power Wide-Area Networks (LPWAN)",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.4.2",
+                "label": "Transmit via Cellular Networks",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.4.3",
+                "label": "Transmit via Satellite Communication",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.4.4",
+                "label": "Transmit via Short-range wireless clusters",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.2",
+        "label": "Predict flood occurrence and severity",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.2.1",
+            "label": "Process and analyze data",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.2.1.1",
+                "label": "Perform time-series analysis on historical and real-time data",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.1.2",
+                "label": "Analyze satellite imagery and camera feeds",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.2.2",
+            "label": "Forecast flood triggers",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.2.2.1",
+                "label": "Predict weather events (Storm surges, Heavy rainfall, Snowmelt)",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.2.2",
+                "label": "Predict infrastructure failures (Dam failure)",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.2.3",
+                "label": "Predict natural disasters (Tsunami, Earthquake)",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.2.3",
+            "label": "Calculate flood severity",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.2.3.1",
+                "label": "Employ Machine Learning and Deep Learning models",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.3.2",
+                "label": "Generate severity scores for prioritization",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.3",
+        "label": "Assess specific impact types",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.3.1",
+            "label": "Evaluate infrastructure damage risks",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.3.1.1",
+                "label": "Assess risk to property (Homes, Buildings, Vehicles)",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.1.2",
+                "label": "Assess risk to critical infrastructure (Bridges, Railroads, Dams)",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.1.3",
+                "label": "Anticipate business and traffic disruption",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.3.2",
+            "label": "Evaluate health and safety risks",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.3.2.1",
+                "label": "Anticipate risk of loss of life",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.2.2",
+                "label": "Assess water quality health impacts",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.3.3",
+            "label": "Evaluate environmental damage",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.3.3.1",
+                "label": "Assess soil erosion risks",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.3.2",
+                "label": "Assess contamination and water quality degradation",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.4",
+        "label": "Notify stakeholders and public",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.4.1",
+            "label": "Generate prioritized alerts",
+            "refinement": null,
+            "subgoals": []
+          },
+          {
+            "goal_id": "1.4.2",
+            "label": "Disseminate alerts via communication channels",
+            "refinement": "OR",
+            "subgoals": [
+              {
+                "goal_id": "1.4.2.1",
+                "label": "Broadcast via mass media (TV, Radio)",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.2.2",
+                "label": "Send digital notifications (Mobile messages, Apps, Social Media)",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.2.3",
+                "label": "Activate physical alarms (Sirens)",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.4.3",
+            "label": "Recommend protective actions",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.4.3.1",
+                "label": "Issue evacuation orders",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.3.2",
+                "label": "Activate flood control mechanisms (Dams, Floodways, Retention ponds)",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,737 @@
+{
+  "goal_model": {
+    "goal_id": "1",
+    "label": "Anticipate the impact of flood on people",
+    "refinement": "AND",
+    "subgoals": [
+      {
+        "goal_id": "1.1",
+        "label": "Anticipate flood occurrence, timing, and severity",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.1.1",
+            "label": "Acquire environmental and hydrological observations relevant to flooding",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.1.1",
+                "label": "Deploy and operate a distributed sensor network for flood-related variables",
+                "refinement": "AND",
+                "subgoals": [
+                  {
+                    "goal_id": "1.1.1.1.1",
+                    "label": "Measure meteorological conditions using weather stations and rain gauges",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.1.1.2",
+                    "label": "Measure river and catchment hydrological conditions using streamflow and water level sensors",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.1.1.3",
+                    "label": "Measure soil moisture conditions influencing runoff and flood generation",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.1.1.4",
+                    "label": "Measure water quality parameters related to flood impacts on health and environment",
+                    "refinement": null,
+                    "subgoals": []
+                  }
+                ]
+              },
+              {
+                "goal_id": "1.1.1.2",
+                "label": "Ensure reliable connectivity for observation data from diverse locations",
+                "refinement": "AND",
+                "subgoals": [
+                  {
+                    "goal_id": "1.1.1.2.1",
+                    "label": "Provide long-range low power connectivity for remote sensors",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.1.2.2",
+                    "label": "Provide localized and cellular connectivity for dense sensor clusters",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.1.2.3",
+                    "label": "Provide satellite connectivity for inaccessible or isolated areas",
+                    "refinement": null,
+                    "subgoals": []
+                  }
+                ]
+              },
+              {
+                "goal_id": "1.1.1.3",
+                "label": "Acquire remote sensing imagery and camera feeds for flood-prone areas",
+                "refinement": "AND",
+                "subgoals": [
+                  {
+                    "goal_id": "1.1.1.3.1",
+                    "label": "Collect satellite imagery for wide-area flood and pre-flood monitoring",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.1.3.2",
+                    "label": "Collect imagery from fixed and consumer cameras in vulnerable zones",
+                    "refinement": null,
+                    "subgoals": []
+                  }
+                ]
+              },
+              {
+                "goal_id": "1.1.1.4",
+                "label": "Maintain historical datasets of environmental, hydrological, and impact data",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.2",
+            "label": "Integrate predictive information sources to forecast floods",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.2.1",
+                "label": "Use flood prediction models within warning systems to forecast flood onset and extent",
+                "refinement": "AND",
+                "subgoals": [
+                  {
+                    "goal_id": "1.1.2.1.1",
+                    "label": "Ingest multi-source observational and forecasting data into flood prediction models",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.2.1.2",
+                    "label": "Predict river overflow and inundation dynamics for relevant river systems",
+                    "refinement": null,
+                    "subgoals": []
+                  }
+                ]
+              },
+              {
+                "goal_id": "1.1.2.2",
+                "label": "Use weather prediction and forecasting systems to anticipate triggering weather events",
+                "refinement": "AND",
+                "subgoals": [
+                  {
+                    "goal_id": "1.1.2.2.1",
+                    "label": "Predict heavy rainfall, storm surges, snowfall, and related weather events that may cause floods",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.2.2.2",
+                    "label": "Provide weather event forecasts as inputs to flood scenario assessments",
+                    "refinement": null,
+                    "subgoals": []
+                  }
+                ]
+              },
+              {
+                "goal_id": "1.1.2.3",
+                "label": "Exploit historical flood and hydrometeorological records to improve predictions",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.2.4",
+                "label": "Apply advanced analytics techniques for flood and weather prediction",
+                "refinement": "OR",
+                "subgoals": [
+                  {
+                    "goal_id": "1.1.2.4.1",
+                    "label": "Use time-series analysis methods to detect patterns and forecast relevant variables",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.2.4.2",
+                    "label": "Use machine learning models to predict flood occurrence and severity",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.2.4.3",
+                    "label": "Use deep learning models to enhance spatial and temporal flood predictions",
+                    "refinement": null,
+                    "subgoals": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.3",
+            "label": "Analyze flood-triggering conditions and structural scenarios",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.3.1",
+                "label": "Monitor extreme weather and hydrological conditions that may cause floods",
+                "refinement": "AND",
+                "subgoals": [
+                  {
+                    "goal_id": "1.1.3.1.1",
+                    "label": "Track intensity and duration of heavy rainfall and snowmelt events",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.3.1.2",
+                    "label": "Monitor storm surges, tsunamis, and other coastal or hydrodynamic drivers of flooding",
+                    "refinement": null,
+                    "subgoals": []
+                  }
+                ]
+              },
+              {
+                "goal_id": "1.1.3.2",
+                "label": "Monitor river levels and overflow risk in real time",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.3.3",
+                "label": "Assess dam failure risk and its contribution to flood scenarios",
+                "refinement": "AND",
+                "subgoals": [
+                  {
+                    "goal_id": "1.1.3.3.1",
+                    "label": "Analyze structural and operational conditions that could lead to dam overtopping or failure",
+                    "refinement": null,
+                    "subgoals": []
+                  },
+                  {
+                    "goal_id": "1.1.3.3.2",
+                    "label": "Integrate dam failure scenarios into flood impact assessments",
+                    "refinement": null,
+                    "subgoals": []
+                  }
+                ]
+              },
+              {
+                "goal_id": "1.1.3.4",
+                "label": "Evaluate alternative flood scenarios combining multiple causes and mitigation states",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.1.4",
+            "label": "Quantify flood severity for downstream impact assessment",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.1.4.1",
+                "label": "Compute flood severity indicators and scores for each area and time period",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.4.2",
+                "label": "Classify geographic areas by expected severity levels and hazard classes",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.1.4.3",
+                "label": "Estimate temporal evolution of flood severity throughout the event",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.2",
+        "label": "Assess health and safety impacts of flooding on people",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.2.1",
+            "label": "Evaluate direct life-threatening risks from floodwaters",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.2.1.1",
+                "label": "Estimate potential loss of life from inundation, fast flows, and entrapment",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.1.2",
+                "label": "Estimate acute health and safety risks from structural collapse and debris",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.2.2",
+            "label": "Evaluate health and safety impacts from flood-induced water quality degradation",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.2.2.1",
+                "label": "Monitor changes in water quality parameters during and after floods",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.2.2",
+                "label": "Assess health risks from exposure to contaminated or unsafe water",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.2.3",
+                "label": "Estimate secondary health and safety risks resulting from environmental degradation",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.2.3",
+            "label": "Evaluate health and safety risks arising from broader environmental damage",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.2.3.1",
+                "label": "Assess impacts of soil erosion and habitat loss on community safety and livelihoods",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.3.2",
+                "label": "Estimate long-term health implications of persistent environmental damage",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.2.4",
+            "label": "Identify vulnerable population groups and locations",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.2.4.1",
+                "label": "Identify residential areas with high exposure to projected flood severity",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.4.2",
+                "label": "Identify critical facilities serving vulnerable populations in at-risk zones",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.2.4.3",
+                "label": "Prioritize health and safety assessments for vulnerable groups based on exposure and sensitivity",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.3",
+        "label": "Assess impacts of flooding on infrastructure and essential services affecting people",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.3.1",
+            "label": "Estimate physical damage to infrastructure and property",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.3.1.1",
+                "label": "Assess potential damage to residential and commercial buildings",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.1.2",
+                "label": "Assess potential damage to transportation infrastructure such as bridges and railways",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.1.3",
+                "label": "Assess potential damage to vehicles and movable property assets",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.1.4",
+                "label": "Assess potential damage to dams and other flood-control structures",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.3.2",
+            "label": "Estimate disruption to mobility and transportation for people",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.3.2.1",
+                "label": "Predict traffic disruptions and inaccessibility of transport routes due to flooding",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.2.2",
+                "label": "Estimate isolation of communities caused by damaged or flooded transport links",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.3.3",
+            "label": "Estimate disruption to economic activities and public services",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.3.3.1",
+                "label": "Assess business disruption and service interruptions resulting from infrastructure damage",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.3.2",
+                "label": "Estimate impacts on water supply, irrigation, and related utility services",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.3.3",
+                "label": "Assess cascading socio-economic impacts on households and communities",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.3.4",
+            "label": "Integrate infrastructure and service disruption into human impact indicators",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.3.4.1",
+                "label": "Derive indicators of accessibility, service availability, and utility loss for affected areas",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.3.4.2",
+                "label": "Combine infrastructure damage metrics with population exposure to estimate overall impact",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.4",
+        "label": "Anticipate protective and evacuation actions needed to safeguard people",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.4.1",
+            "label": "Determine the need for evacuation of residents under predicted flood conditions",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.4.1.1",
+                "label": "Predict locations and times where safety thresholds for staying in place will be exceeded",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.1.2",
+                "label": "Estimate potential reduction in loss of life and health risks achieved by evacuation",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.4.2",
+            "label": "Evaluate effectiveness of structural flood mitigation measures for protecting people",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.4.2.1",
+                "label": "Assess protective capacity and operational status of dams and retention or detention ponds",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.2.2",
+                "label": "Assess effectiveness of floodwalls, floodways, and stormwater basins in reducing inundation",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.2.3",
+                "label": "Incorporate performance of mitigation structures into predicted flood extent and depth",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.4.3",
+            "label": "Identify safe zones, routes, and shelters for people",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.4.3.1",
+                "label": "Identify areas expected to remain safe under modeled flood scenarios",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.3.2",
+                "label": "Identify viable evacuation routes and access paths under evolving flood conditions",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.4.4",
+            "label": "Formulate recommended protective actions for different stakeholders",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.4.4.1",
+                "label": "Derive actionable safety guidance for the general public based on predicted impacts",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.4.2",
+                "label": "Derive operational recommendations for government authorities responsible for preparedness",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.4.4.3",
+                "label": "Derive incident management recommendations for emergency response agencies",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.5",
+        "label": "Maintain real-time situational awareness during flood evolution",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.5.1",
+            "label": "Continuously monitor flood indicators and impacts",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.5.1.1",
+                "label": "Detect flood onset and progression using sensors, cameras, and flood warning systems",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.5.1.2",
+                "label": "Monitor river levels and overflow conditions using river-specific monitoring systems",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.5.1.3",
+                "label": "Track dam performance and detect early signs of overtopping or structural failure",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.5.2",
+            "label": "Update impact forecasts as new data arrives",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.5.2.1",
+                "label": "Ingest and preprocess real-time data streams from sensors and remote sources",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.5.2.2",
+                "label": "Recompute flood and weather predictions with updated observations",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.5.2.3",
+                "label": "Adjust impact estimates and severity levels dynamically based on observed evolution",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.5.3",
+            "label": "Detect anomalous or extreme events beyond standard flood scenarios",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.5.3.1",
+                "label": "Detect unusual patterns and anomalies in time-series data relevant to flooding",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.5.3.2",
+                "label": "Identify compound or cascading events such as storm surges combined with river overflow or dam failure",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.5.4",
+            "label": "Provide situational views of current and projected conditions to decision makers",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.5.4.1",
+                "label": "Visualize current flood extent, water levels, and key indicators",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.5.4.2",
+                "label": "Visualize projected impacts on people, infrastructure, and services over time",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "goal_id": "1.6",
+        "label": "Communicate timely, prioritized warnings and impact information to stakeholders",
+        "refinement": "AND",
+        "subgoals": [
+          {
+            "goal_id": "1.6.1",
+            "label": "Generate alerts based on predicted flood impacts on people",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.6.1.1",
+                "label": "Translate severity scores and impact estimates into standardized alert levels",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.6.1.2",
+                "label": "Associate alerts with specific geographic areas and population groups",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.6.2",
+            "label": "Prioritize and schedule alerts according to risk and urgency",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.6.2.1",
+                "label": "Order alerts using computed severity and urgency criteria",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.6.2.2",
+                "label": "Coordinate alert issuance across hydrological, river, and general flood warning systems",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.6.3",
+            "label": "Disseminate alerts through multiple communication channels",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.6.3.1",
+                "label": "Issue alerts via personal communication channels such as mobile messages, smartphone apps, and social media",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.6.3.2",
+                "label": "Issue alerts via broadcast channels such as television, radio, and sirens",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          },
+          {
+            "goal_id": "1.6.4",
+            "label": "Tailor warning content and guidance for different stakeholder groups",
+            "refinement": "AND",
+            "subgoals": [
+              {
+                "goal_id": "1.6.4.1",
+                "label": "Provide clear, actionable warning information to the general public",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.6.4.2",
+                "label": "Provide detailed situational and planning information to government authorities",
+                "refinement": null,
+                "subgoals": []
+              },
+              {
+                "goal_id": "1.6.4.3",
+                "label": "Provide operational and tactical information to emergency response agencies",
+                "refinement": null,
+                "subgoals": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
