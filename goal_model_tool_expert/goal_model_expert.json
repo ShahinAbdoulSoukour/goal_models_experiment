@@ -1,0 +1,821 @@
+{
+  "goal_model": {
+    "root_goal": {
+      "goal_id": "1",
+      "goal_type": "ACHIEVE",
+      "label": "Anticipate the impact of floods on people",
+      "refinement": "AND",
+      "subgoals": [
+        {
+          "goal_id": "2",
+          "goal_type": "AVOID",
+          "label": "Avoid loss of life and health and safety risks during floods",
+          "refinement": "AND",
+          "info": [
+            "Flood Causes Loss of life",
+            "Flood Causes Health and safety risks"
+          ],
+          "subgoals": [
+            {
+              "goal_id": "3",
+              "goal_type": "ACHIEVE",
+              "label": "Predict flood occurrences",
+              "refinement": "AND",
+              "info": ["Flood prediction model Predicts Flood"],
+              "subgoals": [
+                {
+                  "goal_id": "4",
+                  "goal_type": "ACHIEVE",
+                  "label": "Monitor environmental conditions",
+                  "refinement": "AND",
+                  "info": [
+                    "Environmental damage Leads to Health and safety risks",
+                    "Environmental damage Leads to Loss of life"
+                  ],
+                  "subgoals": [
+                    {
+                      "goal_id": "5",
+                      "goal_type": "ACHIEVE",
+                      "label": "Monitor weather conditions using rain gauge",
+                      "refinement": "AND",
+                      "info": [
+                        "Rain gauge is a type of Sensor",
+                        "Rain gauge Detects Flood"
+                      ],
+                      "subgoals": [
+                        {
+                          "goal_id": "6",
+                          "goal_type": "ACHIEVE",
+                          "label": "Measure precipitation using rain gauge",
+                          "info": ["Rain gauge Measures Precipitation"]
+                        },
+                        {
+                          "goal_id": "7",
+                          "goal_type": "ACHIEVE",
+                          "label": "Measure heavy rainfall using rain gauge",
+                          "info": ["Rain gauge Measures Heavy rainfall"]
+                        }
+                      ]
+                    },
+                    {
+                      "goal_id": "8",
+                      "goal_type": "ACHIEVE",
+                      "label": "Monitor weather conditions using weather stations",
+                      "refinement": "AND",
+                      "info": [
+                        "Weather station is a type of Sensor",
+                        "Weather station Detects Flood"
+                      ],
+                      "subgoals": [
+                        {
+                          "goal_id": "9",
+                          "goal_type": "ACHIEVE",
+                          "label": "Measure temperature using weather stations",
+                          "info": ["Weather station Measures Temperature"]
+                        },
+                        {
+                          "goal_id": "10",
+                          "goal_type": "ACHIEVE",
+                          "label": "Measure wind direction using weather stations",
+                          "info": ["Weather station Measures Wind speed"]
+                        },
+                        {
+                          "goal_id": "11",
+                          "goal_type": "ACHIEVE",
+                          "label": "Measure evaporation using weather stations",
+                          "info": ["Weather station Measures Evaporation"]
+                        },
+                        {
+                          "goal_id": "12",
+                          "goal_type": "ACHIEVE",
+                          "label": "Measure atmospheric pressure using weather stations",
+                          "info": ["Weather station Measures Atmospheric pressure"]
+                        },
+                        {
+                          "goal_id": "13",
+                          "goal_type": "ACHIEVE",
+                          "label": "Measure humidity using weather stations",
+                          "info": ["Weather station Measures Humidity"]
+                        },
+                        {
+                          "goal_id": "14",
+                          "goal_type": "ACHIEVE",
+                          "label": "Measure wind speed using weather",
+                          "info": ["Weather station Measures Wind speed"]
+                        }
+                      ]
+                    },
+                    {
+                      "goal_id": "15",
+                      "goal_type": "ACHIEVE",
+                      "label": "Monitor hydrological conditions",
+                      "refinement": "AND",
+                      "info": [
+                        "Streamflow sensor Detects Flood",
+                        "Soil moisture sensor Detects Flood",
+                        "Water level sensor Detects Flood"
+                      ],
+                      "subgoals": [
+                        {
+                          "goal_id": "16",
+                          "goal_type": "ACHIEVE",
+                          "label": "Measure water levels using water level sensors",
+                          "info": [
+                            "Water level sensor is a type of Sensor",
+                            "Water level sensor Measures Water level"
+                          ]
+                        },
+                        {
+                          "goal_id": "18",
+                          "goal_type": "ACHIEVE",
+                          "label": "Measure soil moisture using soil moisture sensors",
+                          "info": [
+                            "Soil moisture sensor Measures Soil moisture",
+                            "Soil moisture sensor Detects Flood"
+                          ]
+                        },
+                        {
+                          "goal_id": "19",
+                          "goal_type": "ACHIEVE",
+                          "label": "Measure streamflow using streamflow sensors",
+                          "info": [
+                            "Streamflow sensor is a type of Sensor",
+                            "Streamflow sensor Measures Streamflow"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "goal_id": "20",
+                  "goal_type": "ACHIEVE",
+                  "label": "Process data for flood prediction",
+                  "refinement": "AND",
+                  "info": ["Flood prediction model Processes Data"],
+                  "subgoals": [
+                    {
+                      "goal_id": "21",
+                      "goal_type": "ACHIEVE",
+                      "label": "Analyze real-time data using flood prediction model",
+                      "info": ["Flood prediction model Analyzes Real time data"]
+                    },
+                    {
+                      "goal_id": "22",
+                      "goal_type": "ACHIEVE",
+                      "label": "Analyze historical data using flood prediction model",
+                      "info": ["Flood prediction model Analyzes Historical data"]
+                    },
+                    {
+                      "goal_id": "23",
+                      "goal_type": "ACHIEVE",
+                      "label": "Analyze satellite imagery using flood prediction model",
+                      "info": ["Flood prediction model Analyzes Satellite imagery"]
+                    },
+                    {
+                      "goal_id": "24",
+                      "goal_type": "ACHIEVE",
+                      "label": "Employ machine learning models using flood prediction model",
+                      "info": ["Flood prediction model Employs Machine Learning models"]
+                    },
+                    {
+                      "goal_id": "25",
+                      "goal_type": "ACHIEVE",
+                      "label": "Employ deep learning models using flood prediction model",
+                      "info": ["Flood prediction model Employs Deep Learning models"]
+                    },
+                    {
+                      "goal_id": "26",
+                      "goal_type": "ACHIEVE",
+                      "label": "Calculate flood severity scores using flood prediction model",
+                      "info": ["Flood prediction model Calculates Severity score"]
+                    }
+                  ]
+                },
+                {
+                  "goal_id": "27",
+                  "goal_type": "ACHIEVE",
+                  "label": "Predict river overflow using flood prediction models",
+                  "info": ["Flood prediction model Predicts River overflow"]
+                },
+                {
+                  "goal_id": "28",
+                  "goal_type": "ACHIEVE",
+                  "label": "Detect floods events",
+                  "refinement": "AND",
+                  "info": ["Flood warning system Detects Flood"],
+                  "subgoals": [
+                    {
+                      "goal_id": "29",
+                      "goal_type": "ACHIEVE",
+                      "label": "Capture images of flooded areas using camera sensors",
+                      "refinement": "AND",
+                      "info": ["Cameras Detect Flood"],
+                      "subgoals": [
+                        {
+                          "goal_id": "30",
+                          "goal_type": "ACHIEVE",
+                          "label": "Use remote cameras",
+                          "info": ["Remote cameras Detect Flood"]
+                        },
+                        {
+                          "goal_id": "31",
+                          "goal_type": "ACHIEVE",
+                          "label": "Use consumer cameras",
+                          "info": ["Consumer cameras Detect Flood"]
+                        }
+                      ]
+                    },
+                    {
+                      "goal_id": "32",
+                      "goal_type": "ACHIEVE",
+                      "label": "Deploy sensors to detect floods",
+                      "refinement": "AND",
+                      "info": ["Sensor Detects Flood"],
+                      "subgoals": [
+                        {
+                          "goal_id": "33",
+                          "goal_type": "ACHIEVE",
+                          "label": "Deploy water quality sensors",
+                          "refinement": "OR",
+                          "info": ["Water quality sensor Detects Flood"],
+                          "subgoals": [
+                            {
+                              "goal_id": "34",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect water quality sensors via short range wireless",
+                              "info": ["Water quality sensor Connected via Short range wireless"]
+                            },
+                            {
+                              "goal_id": "35",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect water quality sensors via LPWAN",
+                              "info": ["Water quality sensor Connected via Low-Power Wide-Area Networks (LPWAN)"]
+                            }
+                          ]
+                        },
+                        {
+                          "goal_id": "36",
+                          "goal_type": "ACHIEVE",
+                          "label": "Deploy water level sensors",
+                          "refinement": "OR",
+                          "info": ["Water level sensor Detects Flood"],
+                          "subgoals": [
+                            {
+                              "goal_id": "37",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect water level sensors via short range wireless",
+                              "info": ["Water level sensor Connected via Short range wireless"]
+                            },
+                            {
+                              "goal_id": "38",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect water level sensors via LPWAN",
+                              "info": ["Water level sensor Connected via Low-Power Wide-Area Networks (LPWAN)"]
+                            },
+                            {
+                              "goal_id": "39",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect water level sensors via satellite communication",
+                              "info": ["Water level sensor Connected via Satellite communication"]
+                            }
+                          ]
+                        },
+                        {
+                          "goal_id": "40",
+                          "goal_type": "ACHIEVE",
+                          "label": "Deploy soil moisture sensors",
+                          "refinement": "AND",
+                          "info": ["Soil moisture sensor Detects Flood"],
+                          "subgoals": [
+                            {
+                              "goal_id": "41",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect soil moisture sensors via LPWAN",
+                              "info": ["Soil moisture sensor Connected via Low-Power Wide-Area Networks (LPWAN)"]
+                            }
+                          ]
+                        },
+                        {
+                          "goal_id": "42",
+                          "goal_type": "ACHIEVE",
+                          "label": "Deploy streamflow sensors",
+                          "refinement": "OR",
+                          "info": ["Streamflow sensor Detects Flood"],
+                          "subgoals": [
+                            {
+                              "goal_id": "43",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect streamflow sensors via cellular networks",
+                              "info": ["Streamflow sensor Connected via Cellular networks"]
+                            },
+                            {
+                              "goal_id": "44",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect streamflow sensors via short range wireless",
+                              "info": ["Streamflow sensor Connected via Short range wireless"]
+                            },
+                            {
+                              "goal_id": "45",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect streamflow sensors via LPWAN",
+                              "info": ["Streamflow sensor Connected via Low-Power Wide-Area Networks (LPWAN)"]
+                            },
+                            {
+                              "goal_id": "46",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect streamflow sensors via satellite communication",
+                              "info": ["Streamflow sensor Connected via Satellite communication"]
+                            }
+                          ]
+                        },
+                        {
+                          "goal_id": "47",
+                          "goal_type": "ACHIEVE",
+                          "label": "Deploy weather stations",
+                          "refinement": "OR",
+                          "info": ["Weather station Detects Flood"],
+                          "subgoals": [
+                            {
+                              "goal_id": "48",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect weather stations via LPWAN",
+                              "info": ["Weather station Connected via Low-Power Wide-Area Networks (LPWAN)"]
+                            },
+                            {
+                              "goal_id": "49",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect weather stations via cellular networks",
+                              "info": ["Weather station Connected via Cellular networks"]
+                            },
+                            {
+                              "goal_id": "50",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect weather stations via short range wireless",
+                              "info": ["Weather station Connected via Short range wireless"]
+                            }
+                          ]
+                        },
+                        {
+                          "goal_id": "51",
+                          "goal_type": "ACHIEVE",
+                          "label": "Deploy rain gauge sensors",
+                          "refinement": "AND",
+                          "info": ["Rain gauge Detects Flood"],
+                          "subgoals": [
+                            {
+                              "goal_id": "52",
+                              "goal_type": "ACHIEVE",
+                              "label": "Connect rain gauge sensors via LPWAN",
+                              "info": ["Rain gauge Connected via Low-Power Wide-Area Networks (LPWAN)"]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "goal_id": "53",
+              "goal_type": "ACHIEVE",
+              "label": "Assess flood impact",
+              "refinement": "AND",
+              "subgoals": [
+                {
+                  "goal_id": "54",
+                  "goal_type": "ACHIEVE",
+                  "label": "Evaluate environmental damage",
+                  "refinement": "AND",
+                  "info": ["Flood Causes Environmental damage"],
+                  "subgoals": [
+                    {
+                      "goal_id": "55",
+                      "goal_type": "ACHIEVE",
+                      "label": "Assess soil erosion",
+                      "info": ["Soil erosion Evaluated through Environmental damage scenarios"]
+                    },
+                    {
+                      "goal_id": "56",
+                      "goal_type": "ACHIEVE",
+                      "label": "Assess water quality impacts",
+                      "refinement": "AND",
+                      "info": ["Water quality Affects Environmental damage"],
+                      "subgoals": [
+                        {
+                          "goal_id": "58",
+                          "goal_type": "ACHIEVE",
+                          "label": "Monitor water quality using water quality sensors",
+                          "refinement": "AND",
+                          "info": [
+                            "Water quality sensor is a type of Sensor",
+                            "Data Reflects Water quality"
+                          ],
+                          "subgoals": [
+                            {
+                              "goal_id": "59",
+                              "goal_type": "ACHIEVE",
+                              "label": "Measure turbidity using water quality sensors",
+                              "info": ["Water quality sensor Measures Turbidity"]
+                            },
+                            {
+                              "goal_id": "60",
+                              "goal_type": "ACHIEVE",
+                              "label": "Measure salinity using water quality sensors",
+                              "info": ["Water quality sensor Measures Salinity"]
+                            },
+                            {
+                              "goal_id": "61",
+                              "goal_type": "ACHIEVE",
+                              "label": "Measure pH level using water quality sensors",
+                              "info": ["Water quality sensor Measures pH level"]
+                            },
+                            {
+                              "goal_id": "62",
+                              "goal_type": "ACHIEVE",
+                              "label": "Measure dissolved oxygen using water quality sensors",
+                              "info": ["Water quality sensor Measures Dissolved oxygen"]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "goal_id": "57",
+                      "goal_type": "ACHIEVE",
+                      "label": "Evaluate the environmental damage through environmental damage scenarios",
+                      "info": ["Environmental damage Evaluated through Environmental damage scenarios"]
+                    }
+                  ]
+                },
+                {
+                  "goal_id": "63",
+                  "goal_type": "ACHIEVE",
+                  "label": "Evaluate the infrastructure damage",
+                  "refinement": "AND",
+                  "info": ["Flood Causes Infrastructure damage"],
+                  "subgoals": [
+                    {
+                      "goal_id": "64",
+                      "goal_type": "ACHIEVE",
+                      "label": "Evaluate potential property damage",
+                      "refinement": "AND",
+                      "info": ["Property damage Evaluated through Infrastructure damage scenarios"],
+                      "subgoals": [
+                        {
+                          "goal_id": "65",
+                          "goal_type": "ACHIEVE",
+                          "label": "Evaluate buildings damage",
+                          "refinement": "AND",
+                          "info": ["Buildings damage is a type of Property damage"],
+                          "subgoals": [
+                            {
+                              "goal_id": "72",
+                              "goal_type": "ACHIEVE",
+                              "label": "Evaluate buildings damage through infrastructure damage scenarios",
+                              "info": ["Property damage Evaluated through Infrastructure damage scenarios"]
+                            }
+                          ]
+                        },
+                        {
+                          "goal_id": "66",
+                          "goal_type": "ACHIEVE",
+                          "label": "Evaluate homes damage",
+                          "refinement": "AND",
+                          "info": ["Homes damage is a type of Property damage"],
+                          "subgoals": [
+                            {
+                              "goal_id": "73",
+                              "goal_type": "ACHIEVE",
+                              "label": "Evaluate homes damage through infrastructure damage scenarios",
+                              "info": ["Property damage Evaluated through Infrastructure damage scenarios"]
+                            }
+                          ]
+                        },
+                        {
+                          "goal_id": "67",
+                          "goal_type": "ACHIEVE",
+                          "label": "Evaluate railroads damage",
+                          "refinement": "AND",
+                          "info": ["Railroads damage is a type of Property damage"],
+                          "subgoals": [
+                            {
+                              "goal_id": "77",
+                              "goal_type": "ACHIEVE",
+                              "label": "Evaluate railroads damage through infrastructure damage scenarios",
+                              "info": ["Property damage Evaluated through Infrastructure damage scenarios"]
+                            }
+                          ]
+                        },
+                        {
+                          "goal_id": "68",
+                          "goal_type": "ACHIEVE",
+                          "label": "Evaluate bridge damage",
+                          "refinement": "AND",
+                          "info": ["Bridge damage is a type of Property damage"],
+                          "subgoals": [
+                            {
+                              "goal_id": "78",
+                              "goal_type": "ACHIEVE",
+                              "label": "Evaluate bridge damage through infrastructure damage scenarios",
+                              "info": ["Property damage Evaluated through Infrastructure damage scenarios"]
+                            }
+                          ]
+                        },
+                        {
+                          "goal_id": "69",
+                          "goal_type": "ACHIEVE",
+                          "label": "Evaluate vehicles damage",
+                          "refinement": "AND",
+                          "info": ["Vehicles damage is a type of Property damage"],
+                          "subgoals": [
+                            {
+                              "goal_id": "79",
+                              "goal_type": "ACHIEVE",
+                              "label": "Evaluate vehicle damage through infrastructure damage scenarios",
+                              "info": ["Property damage Evaluated through Infrastructure damage scenarios"]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "goal_id": "80",
+                      "goal_type": "ACHIEVE",
+                      "label": "Evaluate traffic disruption",
+                      "refinement": "AND",
+                      "info": [
+                        "Flood Causes Traffic disruption",
+                        "Traffic disruption is a type of Infrastructure damage"
+                      ],
+                      "subgoals": [
+                        {
+                          "goal_id": "81",
+                          "goal_type": "ACHIEVE",
+                          "label": "Evaluate traffic disruption through infrastructure damage scenarios",
+                          "info": ["Traffic disruption Evaluated through Infrastructure damage scenarios"]
+                        }
+                      ]
+                    },
+                    {
+                      "goal_id": "82",
+                      "goal_type": "ACHIEVE",
+                      "label": "Evaluate business disruption",
+                      "refinement": "AND",
+                      "info": [
+                        "Flood Causes Business disruption",
+                        "Business disruption is a type of Infrastructure damage"
+                      ],
+                      "subgoals": [
+                        {
+                          "goal_id": "83",
+                          "goal_type": "ACHIEVE",
+                          "label": "Evaluate business disruption through infrastructure damage scenarios",
+                          "info": ["Business disruption Evaluated through Infrastructure damage scenarios"]
+                        }
+                      ]
+                    },
+                    {
+                      "goal_id": "93",
+                      "goal_type": "ACHIEVE",
+                      "label": "Evaluate dam failure",
+                      "refinement": "AND",
+                      "info": [
+                        "Flood Causes Dam failure",
+                        "Dam failure Evaluated through Infrastructure damage scenarios"
+                      ],
+                      "subgoals": [
+                        {
+                          "goal_id": "94",
+                          "goal_type": "ACHIEVE",
+                          "label": "Evaluate dam failure through infrastructure damage scenarios",
+                          "info": ["Dam failure Evaluated through Infrastructure damage scenarios"]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "goal_id": "84",
+                  "goal_type": "ACHIEVE",
+                  "label": "Mitigate flood impacts",
+                  "refinement": "AND",
+                  "info": [
+                    "Stormwater bassin Mitigate Flood",
+                    "Floodwalls Mitigate Flood",
+                    "Retention ponds Mitigate Flood",
+                    "Detention ponds Mitigate Flood",
+                    "Floodways Mitigate Flood"
+                  ],
+                  "subgoals": [
+                    {
+                      "goal_id": "85",
+                      "goal_type": "ACHIEVE",
+                      "label": "Operate flood control infrastructure",
+                      "refinement": "OR",
+                      "info": ["Dam Provides Flood control"],
+                      "subgoals": [
+                        {
+                          "goal_id": "86",
+                          "goal_type": "ACHIEVE",
+                          "label": "Use dams",
+                          "info": [
+                            "Dam Provides Flood control",
+                            "Dam Avoids Flood"
+                          ]
+                        },
+                        {
+                          "goal_id": "87",
+                          "goal_type": "ACHIEVE",
+                          "label": "Use floodwalls",
+                          "info": ["Floodwalls Mitigate Flood"]
+                        },
+                        {
+                          "goal_id": "88",
+                          "goal_type": "ACHIEVE",
+                          "label": "Use floodways",
+                          "info": ["Floodways Mitigate Flood"]
+                        },
+                        {
+                          "goal_id": "89",
+                          "goal_type": "ACHIEVE",
+                          "label": "Use stormwater basins",
+                          "info": ["Stormwater bassin Mitigate Flood"]
+                        },
+                        {
+                          "goal_id": "90",
+                          "goal_type": "ACHIEVE",
+                          "label": "Use retention ponds",
+                          "info": ["Retention ponds Mitigate Flood"]
+                        },
+                        {
+                          "goal_id": "91",
+                          "goal_type": "ACHIEVE",
+                          "label": "Use detention ponds",
+                          "info": ["Detention ponds Mitigate Flood"]
+                        }
+                      ]
+                    },
+                    {
+                      "goal_id": "95",
+                      "goal_type": "AVOID",
+                      "label": "Avoid dam failure due to inadequate maintenance, material defects, and overtopping",
+                      "refinement": "AND",
+                      "info": [
+                        "Dam failure Due to Inadequate maintenance",
+                        "Dam failure Due to Overtopping",
+                        "Dam failure Due to Material defects",
+                        "Dam Fails Dam failure"
+                      ],
+                      "subgoals": [
+                        {
+                          "goal_id": "96",
+                          "goal_type": "ACHIEVE",
+                          "label": "Maintain infrastructure in good condition to prevent dam failures through infrastructure damage scenarios",
+                          "info": ["Dam failure Evaluated through Infrastructure damage scenarios"]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "goal_id": "97",
+              "goal_type": "ACHIEVE",
+              "label": "Enable timely warning and response",
+              "refinement": "AND",
+              "info": [
+                "River flood warning system Generates Alerts",
+                "Flood warning system Generates Alerts",
+                "Hydrological monitoring system Generates Alerts"
+              ],
+              "subgoals": [
+                {
+                  "goal_id": "98",
+                  "goal_type": "ACHIEVE",
+                  "label": "Deploy warning systems to generate alerts",
+                  "refinement": "AND",
+                  "info": [
+                    "River flood warning system Generates Alerts",
+                    "Flood warning system Generates Alerts",
+                    "Hydrological monitoring system Generates Alerts"
+                  ],
+                  "subgoals": [
+                    {
+                      "goal_id": "99",
+                      "goal_type": "ACHIEVE",
+                      "label": "Use flood warning system",
+                      "info": ["Flood warning system Generates Alerts"]
+                    },
+                    {
+                      "goal_id": "100",
+                      "goal_type": "ACHIEVE",
+                      "label": "Use river flood warning system",
+                      "info": ["River flood warning system Generates Alerts"]
+                    },
+                    {
+                      "goal_id": "101",
+                      "goal_type": "ACHIEVE",
+                      "label": "Use hydrological monitoring system",
+                      "info": ["Hydrological monitoring system Generates Alerts"]
+                    }
+                  ]
+                },
+                {
+                  "goal_id": "102",
+                  "goal_type": "ACHIEVE",
+                  "label": "Prioritize alerts by calculating severity score",
+                  "refinement": "AND",
+                  "info": ["Alerts Prioritized by Severity score"],
+                  "subgoals": [
+                    {
+                      "goal_id": "103",
+                      "goal_type": "ACHIEVE",
+                      "label": "Calculate the severity score using flood prediction models",
+                      "info": ["Flood prediction model Calculates Severity score"]
+                    },
+                    {
+                      "goal_id": "104",
+                      "goal_type": "ACHIEVE",
+                      "label": "Calculate the severity score using weather prediction models",
+                      "info": ["Weather prediction model Calculates Severity score"]
+                    }
+                  ]
+                },
+                {
+                  "goal_id": "105",
+                  "goal_type": "ACHIEVE",
+                  "label": "Notify the general public",
+                  "refinement": "AND",
+                  "info": ["Alerts Notify General public"],
+                  "subgoals": [
+                    {
+                      "goal_id": "106",
+                      "goal_type": "ACHIEVE",
+                      "label": "Notify the people, government authorities, and emergency response agencies",
+                      "refinement": "AND",
+                      "info": [
+                        "Alerts Notify People",
+                        "Alerts Notify Government authorities",
+                        "Alerts Notify Emergencies response agencies"
+                      ],
+                      "subgoals": [
+                        {
+                          "goal_id": "107",
+                          "goal_type": "ACHIEVE",
+                          "label": "Use communication channels",
+                          "refinement": "OR",
+                          "info": ["Alerts Issued to Communication channels"],
+                          "subgoals": [
+                            {
+                              "goal_id": "108",
+                              "goal_type": "ACHIEVE",
+                              "label": "Use mobile phone messages",
+                              "info": ["Mobile phone messages is a type of Communication channels"]
+                            },
+                            {
+                              "goal_id": "109",
+                              "goal_type": "ACHIEVE",
+                              "label": "Use television announcements",
+                              "info": ["Alerts Issued to Television announcements"]
+                            },
+                            {
+                              "goal_id": "110",
+                              "goal_type": "ACHIEVE",
+                              "label": "Use dedicated smartphone apps",
+                              "info": ["Dedicated smartphone app is a type of Communication channels"]
+                            },
+                            {
+                              "goal_id": "111",
+                              "goal_type": "ACHIEVE",
+                              "label": "Use emergency radio broadcasts",
+                              "info": ["Emergency radio broadcasts is a type of Communication channels"]
+                            },
+                            {
+                              "goal_id": "112",
+                              "goal_type": "ACHIEVE",
+                              "label": "Use sirens",
+                              "info": ["Alerts Issued to Sirens"]
+                            },
+                            {
+                              "goal_id": "113",
+                              "goal_type": "ACHIEVE",
+                              "label": "Use social media notifications",
+                              "info": ["Social media notification is a type of Communication channels"]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
